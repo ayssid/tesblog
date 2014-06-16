@@ -86,7 +86,20 @@ class UserController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		//
+		$input = Input::all();
+                $validation = Validator::make($input, User::$rules);
+                
+                if($validation->passes())
+                {
+                    $user = User::find($id);
+                    $user->update($input);
+                    return Redirect::route('users.index');
+                }
+                
+                return Redirect::route('users.edit', $id)
+                        ->withInput()
+                        ->withErrors($validation)
+                        ->with('message', 'There were validation errors.');
 	}
 
 
@@ -98,7 +111,8 @@ class UserController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		User::find($id)->delete();
+                return Redirect::route('users.index');
 	}
 
 
