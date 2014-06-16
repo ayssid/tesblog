@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp/www/yogiweb/app/database/seeds/ContentTableSeeder.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/database/migrations/2014_06_15_044959_create_categories_table.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/config/database.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/database/migrations/2014_06_15_051707_add_self_reference_categories.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/database/seeds/DatabaseSeeder.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/views/layouts/user.blade.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/views/users/edit.blade.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/controllers/PagesController.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/routes.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/views/users/index.blade.php</file>
+            <file>file:/C:/wamp/www/yogiweb/public/index.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/database/migrations/2014_06_15_050527_create_contents_table.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/views/users/create.blade.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/config/app.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/controllers/UserController.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/models/User.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/database/seeds/CategoriesTableSeeder.php</file>
+            <file>file:/C:/wamp/www/yogiweb/app/views/about.php</file>
+        </group>
+    </open-files>
+</project-private>
